@@ -1,0 +1,104 @@
+body {
+    background-color: beige;
+    margin: 0;
+}
+
+.NameP {
+    text-align: center;
+    padding-top: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Portafolio {
+    display: grid;
+    grid-template-rows: repeat(1, 300px);
+    grid-template-columns: repeat(2, 300px);
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 35%;
+    margin-top: 90px;
+}
+
+.ImgPerfil {
+    border-style: solid;
+    height: 250px;
+    width: 250px;
+    margin-left: 50px;
+}
+
+.Nombre {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Proyecto1 {
+    display: grid;
+    grid-template-rows: repeat(1, 300px);
+    grid-template-columns: repeat(2, 300px);
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 90px;
+}
+
+.ImgProyecto1 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    height: 250px;
+    width: 500px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.TextoProyecto1 {
+    margin-left: 50px;
+}
+
+.Final {
+    margin: 0 auto;
+    width: 100%;
+    height: 400px;
+    display: grid;
+    grid-template-rows: repeat(10, 50px);
+    grid-template-columns: repeat(13, 50px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 35%;
+    background-color: black;
+    color: gray;
+    justify-content: center;
+    text-align: center;
+}
+
+.Linkdln {
+    grid-column-start: 1;
+    grid-column-end: 12;
+    grid-row-start: 2;
+    grid-row-end: 8;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.Githubi {
+    grid-column-start: 8;
+    grid-column-end: 14;
+    grid-row-start: 2;
+    grid-row-end: 8;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.GithubiT, .linkedlnT {
+    grid-column-start: 8;
+    grid-column-end: 12;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.GitI, .LinI {
+    width: 200px;
+    height: 200px;
+}
