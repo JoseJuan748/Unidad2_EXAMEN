@@ -1,0 +1,51 @@
+.center-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+    color: #333;
+}
+
+h3 {
+    color: #555;
+}
+
+.input-container {
+    display: -webkit-inline-flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+input {
+    padding: 8px;
+    margin-right: 10px;
+}
+
+
+
+button:hover {
+    background-color: #45a049;
+}
+
+.lista {
+    list-style-type: none;
+    padding: 0;
+}
+
+.lista li {
+    margin-top: 10px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lista li h3 {
+    margin: 0;
+}
+
+@media (max-width: 600px) {
+}
