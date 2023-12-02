@@ -10,6 +10,10 @@ const Navbar = () => {
                 <ul className="dropdown-menu">
                   <li className="nav-item"><Link to={"/MainApp"}>Portafolio</Link></li>
                   <li><Link to={"/Calculadora"}>Calculadora</Link></li>
+                  <li><Link to={"/Encuesta"}>Encuesta</Link></li>
+                  <li> <Link to={"/Numeromagico"}>Numeromagico</Link></li>
+                  <li><Link to={"/Lista"}>Lista</Link></li>
+                  <li><Link to={"/Contacto"}>Contacto</Link></li>
                 </ul>
               </li>
           </ul>
