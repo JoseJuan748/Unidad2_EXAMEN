@@ -1,0 +1,28 @@
+
+#blanco {
+    background-color: white;
+    /* view height */
+    height: 100vh;
+    width: 80vw;
+    /* top right bottom left */
+    margin: 0 auto;
+    padding-left: 2rem;
+}
+
+#blanco h1{
+    margin: 0;
+}
+
+#respuestas {
+    background-color:bisque;
+    padding-left: 1rem;
+    margin-right: 2rem;
+    border-radius: 10px;
+}
+
+b {
+    color: brown;
+}
+
+@media (max-width: 600px) {
+}
